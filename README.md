@@ -1,0 +1,2 @@
+# AluraPic
+ image CRUD project
