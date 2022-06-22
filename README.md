@@ -15,6 +15,7 @@
 * [JavaScript] - (https://www.w3schools.com/js/js_es6.asp)
 * [TypeScript] - (https://www.typescriptlang.org/)
 * [Bootstrap] - (https://getbootstrap.com/)
+* [Font-Awesome] - (https://fontawesome.com/)
 * [Insomnia] - (https://insomnia.rest/)
 
 ### Course:
