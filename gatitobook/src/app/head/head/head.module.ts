@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CabecalhoComponent } from './cabecalho.component';
+import { HeadComponent } from './head.component';
 import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [
-    CabecalhoComponent
+    HeadComponent
   ],
   imports: [
     CommonModule,
     RouterModule
   ],
   exports: [
-    CabecalhoModule
+    HeadComponent
   ]
 })
-export class CabecalhoModule { }
+export class HeadModule { }

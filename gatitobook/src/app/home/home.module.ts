@@ -10,6 +10,7 @@ import { NovoUsuarioComponent } from './novo-usuario/novo-usuario.component';
 
 
 
+
 @NgModule({
   declarations: [
     HomeComponent,
