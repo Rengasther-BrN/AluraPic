@@ -1,0 +1,10 @@
+<div [ngClass]="{'active-menu' : mostraMenu}">
+    <div class="menu-bar">
+        <i class="fa fa-window-close" (click)="abreMenu()" (key.space)="abreMenu()"></i>    
+        <a [routerLink]="['novo']">Novo</a>
+    </div>
+    
+    <div class="overlay" (click)="abreMenu">
+
+    </div>
+</div>

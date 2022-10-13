@@ -1,12 +1,12 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HeadModule } from './componentes/head/head.module';
 import { RodapeModule } from './componentes/rodape/rodape.module';
-
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeadModule } from './head/head/head.module';
+import { AutenticacaoModule } from './autenticacao/autenticacao.module';
 
 
 
@@ -19,7 +19,8 @@ import { HeadModule } from './head/head/head.module';
     AppRoutingModule,
     HttpClientModule,
     RodapeModule,
-    HeadModule        
+    HeadModule,
+    AutenticacaoModule       
   ],
   providers: [],
   bootstrap: [AppComponent]

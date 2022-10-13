@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';  // Forms Module = Para passar as informações dos Inputs para o serviço de autenticação (formularios do tipo templete) ReactiveFormsModule = 
 import { MensagemModule } from '../componentes/mensagem/mensagem.module';
 import { NovoUsuarioComponent } from './novo-usuario/novo-usuario.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -21,8 +22,7 @@ import { NovoUsuarioComponent } from './novo-usuario/novo-usuario.component';
     CommonModule,
     HomeRoutingModule,
     FormsModule,
-    MensagemModule,
-    ReactiveFormsModule
+    SharedModule
   ],
   exports: [
     HomeComponent
